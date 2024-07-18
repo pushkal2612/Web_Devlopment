@@ -1,0 +1,12 @@
+body{
+    background-color: papayawhip;
+}
+main{
+    border: 5px double black;
+    width: 50%;
+    padding: 2em;
+    color: #FF5A5F;
+    margin-left: 15.5em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px lightblue inset;
+}

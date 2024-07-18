@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+body{
+    margin: 10%;
+    padding: 2em;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: hsl(180, 100%, 50%);
+}
+a:active{
+    color: red;
+}
+a:hover,a:focus{
+    color: hsl(170, 100%, 50% ,0.2);
+    background: gold;
+}
+
+p{
+    font-weight: 800;
+    font-family: cursive;
+}

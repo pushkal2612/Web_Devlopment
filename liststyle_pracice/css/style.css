@@ -1,0 +1,25 @@
+body{
+    padding: 5%;
+    font-size: 2rem;
+}
+ol{
+    list-style-type: lower-alpha;
+}
+ul{
+    list-style:decimal ;
+    text-align: center;
+    list-style-position:inside ;
+    color: aqua;
+    line-height: 4rem;
+    list-style-image:linear-gradient(to left bottom, red,blue );
+}
+li{
+    color: bisque;
+}
+li:nth-child(even){
+    color: blue;
+}
+ol li::marker{
+    color: blueviolet;
+    content: "5% off>>  ";
+}

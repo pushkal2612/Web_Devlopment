@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 2rem;
+    font-family: cursive;
+}
+p{
+    background-color: lightgray;
+}
+.opposite{
+    background-color: #333;
+    color: whitesmoke;
+    margin-top: 10px;
+    padding: 1rem;
+    display: inline-block;
+}

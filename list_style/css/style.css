@@ -1,0 +1,27 @@
+body{
+    padding: 5% 10%;
+    font-size: 2rem;
+}
+ol{
+   list-style-type: decimal;
+    list-style: square;
+    text-align: center;
+    list-style-position: inside;
+    color: aqua;
+}
+ul{
+    
+    line-height: 1.6;
+}
+li:nth-child(3){
+    color: aqua;
+}
+ul li{
+    margin: 16rem;
+}
+ul li::marker{
+
+   color: red; 
+   font-size: 6rem;
+   content: "Dis 5% >> ";
+}
