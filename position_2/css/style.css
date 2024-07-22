@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -29,4 +32,19 @@ header{
     position: sticky;
     top: 0;
     font-size: 5rem;
+}
+footer{
+    background-color: black;
+    color: whitesmoke;
+    position: sticky;
+    bottom: 0;
+}
+.social{
+    background-color: blue;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    top: 110px;
+    left: 0;
+    z-index: 1;
 }
