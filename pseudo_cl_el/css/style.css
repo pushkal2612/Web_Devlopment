@@ -3,12 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    /* color */
+    --BGCOLOR:#455569;
+}
 body{
     font-family: "cursive";
     font-size: 1.5rem;
     min-height: 100vh;
-    background-color: #455569;
-    background-image: radial-gradient(whitesmoke,#455569);
+    background-color: var(--BGCOLOR);
+    background-image: radial-gradient(whitesmoke,var(--BGCOLOR));
     display: flex;
     flex-direction: column;
 }
